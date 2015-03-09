@@ -1,13 +1,20 @@
 
-$('body').jQlouds({
+
+('#sky').jQlouds({
+minClouds: 5, 
+maxClouds: 10,
+});
+
+
+$('#sky').jQlouds({
   maxWidth: 300,
   minWidth: 200,
 });
 
-$('body').jQlouds({
+$('#sky').jQlouds({
   wind: true
 });
 
-$('body').jQlouds({
+$('#sky').jQlouds({
   src: '../img/new-cloud.png',
 });
