@@ -1,7 +1,7 @@
 
 
 $('body').jQlouds({
-	minClouds: 5, 
+	minClouds:5,
 	maxClouds: 10,
 	maxWidth: 300,
 	minWidth: 200,
