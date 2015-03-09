@@ -1,5 +1,13 @@
 
 $('body').jQlouds({
-  maxWidth: 113,
-  maxHeight: 48,
+  maxWidth: 300,
+  minWidth: 200,
+});
+
+$('body').jQlouds({
+  wind: true
+});
+
+$('body').jQlouds({
+  src: '../img/new-cloud.png',
 });
